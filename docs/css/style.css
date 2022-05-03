@@ -1,0 +1,16 @@
+* {
+    max-width: 100%;
+    margin: auto;
+}
+
+div {
+    border-radius: 10px;
+}
+
+#header {
+    height: 30px;
+    width: 100%;
+    background-color: sandybrown;
+    position: fixed;
+    z-index: 1;
+}
