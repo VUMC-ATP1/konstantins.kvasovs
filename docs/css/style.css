@@ -8,7 +8,7 @@ div {
 }
 
 .header {
-    margin-left: 60px;
+    margin-left: 5%;
     font-style: oblique[];
 }
 
@@ -20,24 +20,12 @@ div {
     clear: both;
 }
 
-.left-side {
-    height: 1000px;
-    width: 45px;
-    background-color: sandybrown;
-    float: left;
-    position: inherit;
-}
-
-.right-side {
-    height: 1000px;
-    width: 45px;
-    background-color: sandybrown;
-    float: right;
-    position: inherit;
+#picture {
+    display: flex;
+    justify-content: center;
 }
 
 .content {
-    display: inline-block;
     margin-top: 6px;
     margin-left: 50px;
     width: 75%;
@@ -48,14 +36,13 @@ div {
     font-style: italic;
 }
 
-p,
-li {
+p {
     font-family: "Titillium Web";
 }
 
 .paragrapghStyle {
+    margin-left: 10%;
     font-size: 25px;
-    font-weight: bold;
     font-weight: bold;
 }
 
