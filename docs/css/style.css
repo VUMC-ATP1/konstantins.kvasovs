@@ -7,12 +7,9 @@ div {
     border-radius: 10px;
 }
 
-#header {
-    height: 30px;
-    width: 100%;
-    background-color: sandybrown;
-    position: fixed;
-    z-index: 1;
+.header {
+    margin-left: 60px;
+    font-style: oblique[];
 }
 
 #footer {
@@ -47,6 +44,10 @@ div {
     height: 1000px;
 }
 
+.description {
+    font-style: italic;
+}
+
 p,
 li {
     font-family: "Titillium Web";
@@ -54,6 +55,7 @@ li {
 
 .paragrapghStyle {
     font-size: 25px;
+    font-weight: bold;
     font-weight: bold;
 }
 
