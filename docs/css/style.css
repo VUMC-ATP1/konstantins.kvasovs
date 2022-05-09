@@ -1,26 +1,41 @@
-* {
-    max-width: 100%;
-    margin: auto;
+.container {
+    display: grid;
+    font-family: "Titillium Web";
+    font-weight: bold;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 100px;
+    gap: 0px;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
-div {
-    border-radius: 10px;
+.container div {
+    padding: 10px;
 }
 
 .header {
-    margin-left: 5%;
-    font-style: oblique[];
+    margin-left: 100px;
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 
-#footer {
-    height: 40px;
-    width: 100%;
-    background-color: sandybrown;
-    position: relative;
-    clear: both;
+.content-large {
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
-#button {
+.content-small {
+    align-items: center;
+}
+
+.footer {
+    grid-column: 1 / span 3;
+    font-family: "Titillium Web";
+    font-size: 20px;
+    align-items: center;
+}
+
+.basicInfo {
     display: flex;
     justify-content: center;
 }
@@ -30,7 +45,19 @@ div {
     justify-content: center;
 }
 
+.logo {
+    margin-top: 10px;
+    display: inline;
+    ;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+}
+
 .content {
+    float: none;
     margin-top: 6px;
     margin-left: 50px;
     width: 75%;
@@ -45,7 +72,13 @@ p {
     font-family: "Titillium Web";
 }
 
-.paragrapghStyle {
+.content-large {
+    margin-left: 10%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.content-small {
     margin-left: 10%;
     font-size: 25px;
     font-weight: bold;
