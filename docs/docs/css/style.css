@@ -1,0 +1,96 @@
+.container {
+    display: grid;
+    font-family: "Titillium Web";
+    font-weight: bold;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 100px;
+    gap: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.container div {
+    padding: 10px;
+}
+
+.header {
+    margin-left: 100px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.content-large {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.content-small {
+    align-items: center;
+}
+
+.footer {
+    grid-column: 1 / span 3;
+    font-family: "Titillium Web";
+    font-size: 20px;
+    align-items: center;
+}
+
+.basicInfo {
+    display: flex;
+    justify-content: center;
+}
+
+#picture {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    margin-top: 10px;
+    display: inline;
+    ;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    float: none;
+    margin-top: 6px;
+    margin-left: 50px;
+    width: 75%;
+    height: 1000px;
+}
+
+.description {
+    font-style: italic;
+}
+
+p {
+    font-family: "Titillium Web";
+}
+
+.content-large {
+    margin-left: 10%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.content-small {
+    margin-left: 10%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+a {
+    display: block;
+    background: black;
+    color: white;
+    padding: 15px;
+    width: 320px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: "Titillium Web";
+}
