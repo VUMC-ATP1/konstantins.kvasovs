@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c76a4cdc-532c-4024-a17e-72437ba1fc6d" name="Default Changelist" comment="">
+    <list default="true" id="c76a4cdc-532c-4024-a17e-72437ba1fc6d" name="Default Changelist" comment="Home work one and two added">
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classroom/ArrayPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classroom/Guesser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classroom/LoopPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/LoopHomework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/CV.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/css/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/js/script.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/HomeWorkTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/HomeWorkTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/HomeWorkTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/homework/HomeWorkTwo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +49,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.HomeWorkTwo">
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classroom.Calculator" />
+  <component name="RunManager" selected="Application.LoopHomework">
+    <configuration name="ArrayPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classroom.ArrayPractice" />
       <module name="ATP-1" />
       <extension name="coverage">
         <pattern>
@@ -56,21 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Conditions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classroom.Conditions" />
-      <module name="ATP-1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classroom.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Excersise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classroom.Excersise" />
+    <configuration name="Guesser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classroom.Guesser" />
       <module name="ATP-1" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +89,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classroom.Methods" />
+    <configuration name="LoopHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.LoopHomework" />
+      <module name="ATP-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoopPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classroom.LoopPractice" />
       <module name="ATP-1" />
       <extension name="coverage">
         <pattern>
@@ -110,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoopHomework" />
+        <item itemvalue="Application.Guesser" />
+        <item itemvalue="Application.LoopPractice" />
+        <item itemvalue="Application.ArrayPractice" />
         <item itemvalue="Application.HomeWorkTwo" />
-        <item itemvalue="Application.Methods" />
-        <item itemvalue="Application.Excersise" />
-        <item itemvalue="Application.Calculator" />
-        <item itemvalue="Application.Conditions" />
       </list>
     </recent_temporary>
   </component>
@@ -128,6 +135,18 @@
       <updated>1652453237232</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>

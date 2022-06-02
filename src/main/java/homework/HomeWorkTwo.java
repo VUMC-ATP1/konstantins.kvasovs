@@ -82,13 +82,11 @@ public class HomeWorkTwo<x> {
         } else {
             System.out.printf("Wrong color");
         }
-        public static void Card (String firstName, String secondName, long number, double birthDate){
-            firstName =
+
         }
 
 
         }
-    }
 
 
 
